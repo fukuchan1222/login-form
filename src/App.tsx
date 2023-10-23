@@ -25,7 +25,6 @@ const validationSchema = z.object({
 
 
 function App() {
-  const [isSubmit, setIsSubmit] = useState(false);
 
   const {
     register,
