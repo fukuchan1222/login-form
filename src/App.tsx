@@ -38,7 +38,6 @@ function App() {
 
   const onSubmit = (data:LoginForm) => {
     console.log("submitted Data", data);
-    setIsSubmit(true);
   };
 
   return (
